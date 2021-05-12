@@ -10,6 +10,11 @@
 
 ⇧⇧⇧⇧⇧ DEVELOPER NOTES HERE ⇧⇧⇧⇧⇧
 
+## TECH DEBT SPRINT CHECKLIST
+- [ ] Are you attempting to merge changes into the correct branch (it should be `nextjs`)?
+- [ ] Have you pulled the most recent changes from `nextjs` into your feature branch?
+- [ ] Are the changes only related to 1 story? (we want to avoid doing multiple stories in the same PR)
+
 ## Developer Checklist
 - [ ] Have you QA'd your work?
 - [ ] Have you linked this change to Clubhouse? See Clubhouse
