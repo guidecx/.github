@@ -10,11 +10,6 @@
 
 ⇧⇧⇧⇧⇧ DEVELOPER NOTES HERE ⇧⇧⇧⇧⇧
 
-## TECH DEBT SPRINT CHECKLIST
-- [ ] Are you attempting to merge changes into the correct branch (it should be `nextjs`)?
-- [ ] Have you pulled the most recent changes from `nextjs` into your feature branch?
-- [ ] Are the changes only related to 1 story? (we want to avoid doing multiple stories in the same PR)
-
 ## Developer Checklist
 - [ ] Have you QA'd your work?
 - [ ] Have you linked this change to Clubhouse? See Clubhouse
@@ -27,3 +22,12 @@
 - [ ] Do you understand the changes being made in this PR?
 - [ ] Is there adequate documentation around these changes?
 - [ ] Are there simpler or cleaner modifications that could be made?
+
+## Red Flags
+
+### Shallow Modules
+> A shallow module is one whose interface is complicated relative to the functionality it provides.
+
+- [ ] Does this PR have any shallow modules?
+- [ ] ☝️ if yes, what can be done to deepen them?
+- [ ] ☝️ do the interface defaults make sense? Should they be changed to better handle the common case?
