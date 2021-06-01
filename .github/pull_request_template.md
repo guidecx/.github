@@ -26,7 +26,7 @@
 ## Red Flags
 
 ### Shallow Modules
-> A shallow module is one who's interface is complicated relative to the functionality it provides.
+> A shallow module is one whose interface is complicated relative to the functionality it provides.
 
 - [ ] Does this PR have any shallow modules?
 - [ ] ☝️ if yes, what can be done to deepen them?
