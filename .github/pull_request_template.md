@@ -30,3 +30,4 @@
 
 - [ ] Does this PR have any shallow modules?
 - [ ] ☝️ if yes, what can be done to deepen them?
+- [ ] ☝️ do the interface defaults make sense? Should they be changed to better handle the common case?
