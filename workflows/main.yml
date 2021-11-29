@@ -1,0 +1,13 @@
+on: [pull-request]
+
+jobs: 
+  pr_title_validation:
+    runs-on: ubuntu-latest
+    name: PR Title Validation
+    steps: 
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: PR title validation action step
+        uses: ./ # Uses an action in the root directory
