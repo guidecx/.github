@@ -1,13 +1,19 @@
+name: GuideCX CI
+
 on: [pull-request]
 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs: 
+  # first job
   pr_title_validation:
     runs-on: ubuntu-latest
     name: PR Title Validation
     steps: 
-      # To use this repository's private action,
-      # you must check out the repository
+      # To use this repository's private action you must check out
+      # the repository under $GITHUB_WORKSPACE, so your job can access it 
       - name: Checkout
         uses: actions/checkout@v2
+        
       - name: PR title validation action step
         uses: ./ # Uses an action in the root directory
+        
