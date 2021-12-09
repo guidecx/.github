@@ -1,0 +1,12 @@
+name: PR Title validation
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: guidecx/action.pr-title-validation@v1.0.1
