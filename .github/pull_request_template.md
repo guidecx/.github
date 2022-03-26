@@ -12,7 +12,7 @@
 
 ## Developer Checklist
 - [ ] Have you QA'd your work?
-- [ ] Have you linked this change to Clubhouse? See Clubhouse
+- [ ] Have you linked this change to Jira? See [Reference Jira Issues In Your Development Work](https://support.atlassian.com/jira-software-cloud/docs/reference-issues-in-your-development-work/) 
 - [ ] Have you named your PR correctly by type of change and included the story number? ie feat, bugfix, chore
 - [ ] Have sufficient automated tests been added?
 - [ ] Do these changes have a feature flag?
