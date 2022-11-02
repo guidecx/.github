@@ -1,33 +1,18 @@
-## New Pull Request
-> The reviewer is not responsible for checking the correctness of this code - only the quality. The reviewer should be checking to make sure the changes make logical sense, that dead code has been removed, that all documentation has been updated (in all forms: readmes, comments, type declarations, etc), and that business requirements are met.
+## Change Summary
 
-## Developer Notes
-> notes about the changes being made. why certain decisions were made (ADR-style notes), things the reviewer should look for, context the reviewer needs to be aware of, etc
+> UPDATE ME!
 
-⇩⇩⇩⇩⇩ DEVELOPER NOTES HERE ⇩⇩⇩⇩⇩
+- [Jira Issue](link here!!)
+- [Feature Flag](link here!!)
 
-// notes
+## Note to the Reviewer
 
-⇧⇧⇧⇧⇧ DEVELOPER NOTES HERE ⇧⇧⇧⇧⇧
+Review this change together with the authoring developer. While discussing the change, pay special attention to:
 
-## Developer Checklist
-- [ ] Have you QA'd your work?
-- [ ] Have you linked this change to Jira? See [Reference Jira Issues In Your Development Work](https://support.atlassian.com/jira-software-cloud/docs/reference-issues-in-your-development-work/) 
-- [ ] Have you named your PR correctly by type of change and included the story number? ie feat, bugfix, chore
-- [ ] Have sufficient automated tests been added?
-- [ ] Do these changes have a feature flag?
-- [ ] Do these changes meet our Quality Standards?
-
-## Reviewer Checklist
-- [ ] Do you understand the changes being made in this PR?
-- [ ] Is there adequate documentation around these changes?
-- [ ] Are there simpler or cleaner modifications that could be made?
-
-## Red Flags
-
-### Shallow Modules
-> A shallow module is one whose interface is complicated relative to the functionality it provides.
-
-- [ ] Does this PR have any shallow modules?
-- [ ] ☝️ if yes, what can be done to deepen them?
-- [ ] ☝️ do the interface defaults make sense? Should they be changed to better handle the common case?
+- Change Size (< 250 LOC)
+- SOLID Principles
+- Change Complexity
+- User Story Acceptance Criteria
+- Automated Tests: automated tests and risk of regressions or uncovered edge cases
+- Feature Flags: appropriate code versioning and feature flag placement
+- Quality and Performance Code Smells
